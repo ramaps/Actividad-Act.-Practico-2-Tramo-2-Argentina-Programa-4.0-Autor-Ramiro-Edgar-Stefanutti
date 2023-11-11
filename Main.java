@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        String archivo = "C:\\Users\\Usuario\\Documents\\Aplicaciones Java\\SegundoPractico\\Archivo de Texto\\Texto.txt";
+        String archivo = "colocamos la ruta del archivo";
 
         // con esto leemos el archivo y su contenido lo almacenamos en en una lista
         List<String> textoOriginal = Files.readAllLines(Paths.get(archivo));
